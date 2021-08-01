@@ -42,7 +42,7 @@ const handleClick= () => setClick (!click)
                
 
                 <div className="nav-but nav">
-                <a href="">For Team</a>
+                <a href="#">For Team</a>
                     <a href="">For Instructor</a>
 
                   

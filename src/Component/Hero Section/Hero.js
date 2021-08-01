@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './hero.css'
-import Img1 from '../images/slag.png'
+
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 

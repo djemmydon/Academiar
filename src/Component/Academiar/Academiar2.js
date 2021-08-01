@@ -24,7 +24,7 @@ function Academiar2() {
                         mentors and educators. We can help
                         you develop and grow at your best.</p>
 
-                    <a href=""><button>Get Started</button></a>
+                    <a href="#"><button>Get Started</button></a>
                 </div>
 
             </div>

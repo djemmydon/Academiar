@@ -1,0 +1,142 @@
+.academier {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top:20px ;
+height: 100vh;
+
+}
+
+.acatext {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+
+
+}
+
+.acatext h6 {
+    font-size: 20px;
+    color: grey;
+} 
+
+.acatext h4 {
+    font-size: 40px;
+    color: #00027c;
+    width: 20rem;
+    font-weight: 700;
+}  
+
+.acatext p {
+
+    font-size: 15px;
+    color: rgb(32, 31, 31);
+        font-weight: 500;
+        width: 17rem;
+}  
+
+
+
+
+
+
+.academier a button {
+    padding: 15px 20px;
+
+    border: none;
+    background-color:rgb(197, 3, 3) ;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease;
+   font-size: 13px;
+   font-weight: 500;
+}
+
+ a button:hover {
+    background-color: rgb(6, 6, 87);
+}
+
+.acaimg img {
+    width: 30rem;
+
+}
+@media screen and (max-width: 1200px) {
+.acaimg img {
+    width: 20rem;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .academier {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 150vh;
+margin:5rem;
+}
+
+.acaimg img {
+    width:25rem;
+
+}
+
+.acade {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.acatext h6 {
+    padding-top: 20px;
+}
+.acatext h4 {
+    font-size: 40px;
+    color: #00027c;
+    width: 30rem;
+    font-weight: 700;
+}  
+
+.acatext p {
+
+    font-size: 15px;
+    color: rgb(32, 31, 31);
+        font-weight: 500;
+        width: 31rem;
+}  
+
+}
+
+@media screen and (max-width: 600px)  {
+        .academier {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin:1rem;
+margin-top:6rem;
+margin-bottom:6rem;
+}
+    .acatext h4 {
+    font-size: 35px;
+    color: #00027c;
+    width: 30rem;
+    font-weight: 700;
+}  
+
+.acatext p {
+
+    font-size: 15px;
+    color: rgb(32, 31, 31);
+        font-weight: 500;
+        width: 25rem;
+} 
+.acaimg img {
+    width: 25rem;
+
+
+}
+}

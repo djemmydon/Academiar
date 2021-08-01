@@ -1,0 +1,63 @@
+.cards {
+    
+    background-color: rgb(251, 254, 255);
+    align-items: center;
+
+}
+
+
+
+
+.text1 {
+    padding-top: 10px;
+}  
+
+.icon {
+padding: 60px;
+}
+
+.icons {
+    text-align: center;
+}
+.icons i {
+    font-size: 30px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 50px 0px rgba(169, 169, 175, 0.178);
+    transition: 0.2s ease-in;
+}
+
+.icons i:hover {
+      border: 2px solid rgb(167, 0, 0);
+}
+
+
+.icons p {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+@media screen and (width: 576px)  {
+    .cards{
+      width: 1%;
+    }
+}
+
+@media screen and (width: 768)  {
+    .cards{
+        column-count:3 ;
+    }
+}
+
+@media screen and (width: 993)  {
+    .cards{
+        column-count: 4;
+    }
+}
+
+
+
+

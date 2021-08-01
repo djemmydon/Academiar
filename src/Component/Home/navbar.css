@@ -1,0 +1,631 @@
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.nav-logo {
+    padding-right: 10px;
+}
+
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        padding-top: 10px;
+        padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+  -webkit-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+}
+
+
+.browse-cat {
+    padding-right: 20px;
+       padding-top: 9px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color:rgb(0, 1, 87);
+
+}
+
+.browse-cat i {
+   font-weight: 600;
+}
+
+.browse-cat :after {
+
+content: "";
+display: block;
+position: absolute;
+background-color: red;
+height: 1px; 
+width: 0;
+transition: 0.3s;
+
+}
+
+.dropdownt li:after {
+
+
+
+}
+
+
+
+.browse-cat :hover::after {
+
+width: 5rem;
+}
+
+.strink {
+   display: flex; 
+}
+
+
+.dropdown {
+position: absolute;
+top: 70%;
+left: 20%;
+z-index: 10;
+ padding: 0;
+max-width: 30rem;
+border-radius: 10px;
+display: none;
+-webkit-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+transition: 0.3s;
+}
+
+.dropdown li {
+    text-transform: capitalize;
+transition: 0.3s;
+padding: 10px;
+font-size: 20px;
+font-weight: 600;
+
+}
+
+.dropdown li:hover {
+background-color: rgb(204, 204, 204);
+
+}
+
+ .browse-cat:hover .dropdown {
+    display: block;
+    background-color: transparent;
+    color: black;
+    background-color:white ;
+   transition: 0.3s;
+   animation: 300ms ease-in-out forwards;
+} 
+.serch {
+position: relative;
+    display: flex;
+   
+}
+
+.serch i {
+    position: absolute;
+    color: rgb(133, 1, 1);
+
+    margin-top: 1px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+     padding: 15px 12px ;
+     font-size: 15px;
+     transition: 0.2s ease-in-out;
+        
+}
+
+.serch i:hover {
+    right: 0;  
+   background-color: rgb(197, 3, 3);
+   color: white;
+ position: absolute;
+ padding: 15px 12px;
+ border-radius: 3px;
+}
+
+.serch input {
+    padding: 10px 70px 10px 5px;
+    outline: none;
+    border: 1px solid rgb(236, 231, 231) ;
+    background-color: rgb(236, 231, 231);
+    border-radius: 5px;
+transition: 0.2s ease;
+
+}
+
+
+
+.serch input:focus {
+        border: 1px solid rgb(197, 3, 3);
+        background-color: white;
+             
+}
+
+
+
+.serch input::placeholder {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 2px;
+     
+}
+
+
+.nav-button {
+    position: relative;
+    margin-right: 1px;
+
+    display: flex;
+ 
+}
+
+.nav-button a {
+    padding: 5px;
+  
+}
+
+
+.nav-button a button {
+    padding: 15px 20px;
+    display: flex;
+    border: none;
+    background-color:rgb(197, 3, 3) ;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease;
+   
+}
+
+.nav-button .login button {
+    padding: 12px 20px;
+    display: flex;
+    border: none;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(197, 3, 3);
+    border-radius: 5px;
+    border: 1px solid rgb(197, 3, 3) ;
+    transition: 0.2s ease;
+   
+}
+
+.nav-button .login button:hover {
+    color: white;
+    background-color: rgb(197, 3, 3);
+}
+
+
+ a button:hover {
+    background-color: rgb(6, 6, 87);
+}
+
+
+
+.nav-button i {
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+transition: 0.4s ease;
+}
+
+.nav-button i:hover {
+    color:rgb(197, 3, 3) ;
+     
+}
+
+.fav-cart i {
+  
+    padding-left: 30px;
+       padding-bottom: 10px;
+    font-size: 24px;
+transition: 0.4s ease;
+}
+
+.fav-cart i:hover {
+    color:rgb(197, 3, 3) ;
+     
+}
+
+.drop-img {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-drop {
+    display: none;
+}
+
+.nav-but {
+    padding-left: 30px;
+}
+
+.nav-but a {
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+
+}
+
+
+@media screen and (max-width: 576px)  {
+
+
+}
+
+
+
+@media screen and (max-width: 993px)  {
+       .nav-button {
+   display: none;
+}
+
+
+}
+
+
+@media screen and (max-width: 1200px)  {
+ .nav-button {
+
+    margin-right: 10px;
+
+}
+
+
+.nav-button a button {
+    padding: 10px 16px;
+ 
+   
+}
+
+.nav-logo h2 {
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.browse-cat {
+    padding-right: 20px;
+    font-size: 15px;
+
+}
+
+.strink {
+   display: flex; 
+flex-direction: column;
+}
+
+.nav-drop {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    height:100vh ;
+ 
+top: 0;
+   opacity: 0;
+}
+
+.nav-drop.active {
+   display: block;
+    right: 0;
+   background: rgb(255, 255, 255);
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.nav-drop.active:active {
+   display: block;
+  
+}
+
+.nav-drop.active::after {
+   
+    
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.nav-drop img {
+  width: 7rem;
+  height: 7rem;
+}
+
+
+
+.hamburger {
+    display: block;
+    
+}
+
+.up-nav {
+
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.up-nav .hamburger {
+    display: flex;
+    padding-top: 2px;
+    margin-right: 30px;
+    padding-left: 7rem;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+
+.img-but {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.img-but img{
+ border-radius: 100px;
+
+}
+
+.img-but a button{
+
+    padding: 15px 20px;
+    display: flex;
+    border: none;
+    background-color:rgb(197, 3, 3) ;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease;
+  margin: 20px;
+}
+
+.img-but a button:hover {
+    background-color: rgb(74, 144, 4);
+} 
+}
+
+@media screen and (max-width: 968px) {
+.nav-but a{
+    display: none;
+
+}
+
+.strink {
+    display: none;
+}
+
+.fav-cart {
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 768px)  {
+
+.strink {
+   display: none;
+}
+
+.nav-button{
+    display: none;
+}
+
+.fav-cart  {
+   display: flex;
+   justify-content: end;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.Navbar {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+
+.navbar {
+ 
+    
+}
+
+.nav-logo {
+    position: absolute;
+ padding-left: 50px;
+}
+
+
+
+
+
+.nav-items {
+   position: inherit;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+   padding-left: 15rem;
+} 
+
+.nav {
+    
+}
+
+.browse-cat {
+   padding-right: 31.5rem;
+      
+}
+
+
+
+.serch {
+    position: absolute;
+    display: flex;
+}
+
+.serch i {
+    position: absolute;
+    margin-top: 1px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+     padding: 15px 12px ;
+     font-size: 20px;
+     transition: 0.2s ease-in-out;
+        
+}
+
+.serch i:hover {
+    right: 0;  
+   background-color: rgb(197, 3, 3);
+   color: white;
+ position: absolute;
+ padding: 15px 12px;
+ border-radius: 3px;
+}
+
+.serch input {
+    padding: 10px 70px 10px 5px;
+    outline: none;
+    border: 1px solid rgb(236, 231, 231) ;
+    background-color: rgb(236, 231, 231);
+    border-radius: 5px;
+transition: 0.2s ease;
+
+}
+
+
+
+.serch input:focus {
+        border: 1px solid rgb(197, 3, 3);
+        background-color: white;
+             
+}
+
+
+
+.serch input::placeholder {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 2px;
+     
+}
+
+.nav-button {
+    position: absolute;
+    padding: 10px;
+    padding-left: 50rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button a {
+    padding: 10px;
+  
+}
+
+
+.nav-button a button {
+    padding: 10px;
+    display: flex;
+    border: none;
+    background-color:rgb(197, 3, 3) ;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease;
+   
+}
+
+.nav-button a button:hover {
+    background-color: rgb(6, 6, 87);
+}
+
+.fav-cart {
+    position: absolute;
+       padding-left:51rem ;
+
+}
+
+.fav-cart i {
+    padding-right: 20px;
+    font-size: 25px;
+transition: 0.4s ease;
+}
+
+.fav-cart i:hover {
+    color:rgb(197, 3, 3) ;
+     
+}*/

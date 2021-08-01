@@ -1,0 +1,140 @@
+li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+li:hover {
+ color: #a51d2f;
+}
+
+.Footer {  
+    padding-top: 30px;  
+        margin-top: 10rem;  
+background-image: url('../images/bg3.jpg');
+object-fit: cover;
+   background-repeat: no-repeat;
+bottom: 20rem;
+  width: 100%;
+  color: white;
+}
+
+.explore {
+display: flex;
+width: 18rem;
+
+}
+
+.explore li {
+
+font-size: 15px;
+font-weight: 600;
+color: rgb(149, 144, 138);
+}
+
+.explore li:hover {
+ color: #a51d2f;
+}
+
+.company li {
+
+font-size: 15px;
+font-weight: 600;
+color: rgb(149, 144, 138);
+}
+
+.company li:hover {
+ color: #a51d2f;
+}
+
+.explo  {
+   
+font-size: 20px;
+}
+.compa {
+  margin-left: 10px; 
+font-size: 20px;
+}
+
+
+
+.contact h3 {
+font-size: 20px;
+}
+
+.contact p {
+font-size: 15px;
+font-weight: 600;
+color: rgb(149, 144, 138);
+}
+
+.contact span {
+font-size: 13px;
+font-weight: 600;
+color: rgb(149, 144, 138);
+}
+
+.contact-icon i {
+font-size: 35px;
+font-weight: 600;
+margin-right: 18px;
+color: rgb(149, 144, 138);
+transition: 0.4s;
+}
+
+.contact-icon i:hover {
+
+color: rgb(255, 255, 255);
+}
+
+.sec-side {
+    display: flex;
+}
+
+select {
+    appearance: none;
+    border: 1px solid  white;
+    outline: none;
+    background: transparent ;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;  
+    font-weight: 600;
+    padding: 10px;
+      color: rgb(255, 255, 255);
+}
+
+option {
+background-color: rgba(0, 23, 73, 0.555);
+    font-weight: 600;
+    
+}
+
+
+
+
+.foot  {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: rgb(179, 179, 179);
+}
+@media screen and (max-width:1000px) {
+    .CONTA {
+ display: flex;
+flex-direction: column;
+}
+.foot  {
+    
+    padding: 30px;
+   
+    color: rgb(179, 179, 179);
+}
+}
+
+

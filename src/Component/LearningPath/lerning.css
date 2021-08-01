@@ -1,0 +1,86 @@
+.cont {
+    background-color: rgb(246, 232, 234);
+}
+
+.coursess {
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    margin:10px ;
+    border-radius: 5px;
+}
+.herder {
+    background-color:  rgb(167, 0, 0);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 6px 0 0 10px;
+color: white;
+}
+
+.herder h3 {
+ font-size: 20px;
+}
+.herder p {
+ font-size: 17px;
+ color: rgb(238, 237, 237);
+}
+
+.carding {
+    display: flex;
+   flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+
+.box {
+background-color: white;
+border-radius: 10px;
+justify-content: center;
+margin:10px;
+    
+}
+
+.box-course  i {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   font-size: 18px;
+    
+}
+
+.box-course  i:hover {
+color:rgb(167, 0, 0) ;
+    
+}
+
+.ima img{
+width: 5rem;
+height: 6rem;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+object-fit: cover;
+} 
+
+.txt {
+margin: 5px;
+}
+.txt p {
+    width: 13rem;
+}
+
+.text1 p {
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+.text1 h2 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.txt span {
+color:rgb(167, 0, 0);
+font-weight: 600;
+}

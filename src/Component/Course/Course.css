@@ -1,0 +1,123 @@
+.Course {
+    align-items: center;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.box{
+    position: relative;
+    height: 550px;
+    
+}
+
+.card{
+width: 30rem;
+transition: 0.2s;
+border-radius: 10px ;
+
+}
+
+.card-body {
+    border: grey solid 2px;
+    border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+.card:hover{ 
+box-shadow: 5px 10px 50px 0px rgba(169, 169, 175, 0.178);
+
+}
+
+.card-body h4 {
+            color: #a51d2f;
+            font-size: 30px;
+            font-weight:650;
+}
+
+
+.card-body h4 span {
+            color: #a51d2f;
+            font-size: 15px;
+            font-weight:450;
+            color: rgb(161, 159, 159);
+            text-decoration: line-through;
+            
+}
+
+.tutor a{
+color: #a51d2f;
+}
+
+.card-body p a {
+    color:#00027c ;
+    font-weight: 500;
+    padding: ;
+    
+}
+
+.card-body p a:hover {
+    color:#a51d2f;
+    font-weight: 500;
+    
+}
+.line{
+border-bottom: 1px solid gray;
+padding-top: 20px;
+width: 18rem;
+
+}
+
+
+
+.rating {
+   padding-top: 5px;
+}
+.star  {
+    display: flex;
+    color: rgb(238, 187, 20);
+    padding-right: 5px;
+}
+
+.star i  {
+    font-size: 13px;
+    padding-top: 6px;
+    padding-right: 5px;
+    
+}
+
+.star p  {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.courses {
+    padding-right: 10px;
+
+ 
+}
+.courses p{
+    padding-right: 10px;
+
+}
+
+.courses .p1 i{
+  padding-right: 10px;
+}
+.courses .p2 i{
+  padding-right: 10px;
+}
+
+.box-img img {
+   border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+

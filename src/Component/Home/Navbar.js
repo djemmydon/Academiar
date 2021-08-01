@@ -42,8 +42,8 @@ const handleClick= () => setClick (!click)
                
 
                 <div className="nav-but nav">
-                <a href="#">For Team</a>
-                    <a href="">For Instructor</a>
+                <a href="index.html">For Team</a>
+                <a href="index.html">For Instructor</a>
 
                   
 
@@ -57,8 +57,8 @@ const handleClick= () => setClick (!click)
                
             </div>
             <div className="nav-button nav">
-                <a href=""  className='login'><button>Login</button></a>
-                <a href="" className='sign-up'><button>Sign Up</button></a>
+                <a href="index.html"  className='login'><button>Login</button></a>
+                <a href="index.html" className='sign-up'><button>Sign Up</button></a>
             </div>
             <div className={click ? 'nav-drop active' : 'nav-drop'}>
                 <div className="up-nav">
@@ -72,7 +72,7 @@ const handleClick= () => setClick (!click)
                         <div className="img-but">
                               <img src={Img1} alt="" />
                               
-                <a href=""><button>My Course</button></a>
+                    <a href="index.html"><button>My Course</button></a>
                         </div>
                       
                 </div>

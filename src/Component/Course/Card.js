@@ -1,9 +1,8 @@
-import React, { Component,useEffect } from 'react'
+import React, { Component} from 'react'
 import Course from './Course'
 import Elastic from 'react-elastic-carousel'
 import './card.css'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+
 
 const breakPoints = [
     {width: 1, itemsToShow: 1},
@@ -13,11 +12,9 @@ const breakPoints = [
        { width: 1200, itemsToShow: 6 }
 ]
 class Card extends Component {
-    useEffect=(() => {
-        Aos.init({ duration: 2000 })
+  
 
 
-    }, [])
     render() {
         return (
 

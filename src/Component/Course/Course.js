@@ -15,10 +15,10 @@ const Course= props => {
                          <div className=""><h4>₦10,000.00  <span>₦10,000.00</span></h4>
                         
                     </div>  
-                    <p><a href="">Learning to Write as a Professional Author</a></p>
+                    <p><a href="index.html">Learning to Write as a Professional Author</a></p>
                     <p>Lorem Ipsum dolor sit amet, consecteruer....</p>
                     <div className="tutor"> 
-                        <span>by</span> <a href="">Sowemimo Bamidele</a>
+                        <span>by</span> <a href="index.html"> Bamidele Nativebrand</a>
                     </div>
                     <div className="line">
                         

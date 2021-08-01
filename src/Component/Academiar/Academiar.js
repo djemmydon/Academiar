@@ -23,7 +23,7 @@ function Academiar() {
                         mentors and educators. We can help
                         you develop and grow at your best.</p>
 
-                    <a href=""><button>Get Started</button></a>
+                    <a href="index.html"><button>Get Started</button></a>
                 </div>
 
                 <div className="col-md-6 acaimg">

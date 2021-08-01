@@ -30,9 +30,7 @@ a:focus {
     position: fixed;
     background-color: white;
     z-index: 1;
-  -webkit-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
--moz-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.48);
+ 
 }
 
 
@@ -438,7 +436,7 @@ top: 0;
 
 .fav-cart  {
    display: flex;
-   justify-content: end;
+   
 }
 
 
